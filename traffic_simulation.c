@@ -51,6 +51,7 @@ void simulate_intersections_distributed() {
     for (int i = 0; i < INTERSECTIONS; i++) {
         int transfer = intersectionBuffer[i] / 2;
 
+     
         #pragma omp critical
         {
             intersectionBuffer[i] -= transfer;
@@ -83,8 +84,8 @@ int main() {
     printf("\nFINAL TRAFFIC STATE\n");
     for (int i = 0; i < ROADS; i++) {
         printf("Road %d: %d vehicles\n", i, roadVehicles[i]);
+     
     }
-
     printf("Execution Time: %f seconds\n", endTime - startTime);
     return 0;
 }
