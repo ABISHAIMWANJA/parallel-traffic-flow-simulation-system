@@ -30,3 +30,7 @@ Road 1: 0 vehicles
 Road 2: 82 vehicles
 Road 3: 54 vehicles
 Execution Time: 0.104175 seconds
+
+
+Road 3: 54 vehicles
+Execution Time: 0.104175 seconds
