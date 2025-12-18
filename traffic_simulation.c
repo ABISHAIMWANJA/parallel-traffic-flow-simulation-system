@@ -29,7 +29,7 @@ void initialize_system() {
         intersectionBuffer[i] = 0;
     }
 }
-
+/*parallelization for the cpu cores*/
 void simulate_roads_parallel() {
     #pragma omp parallel for
     for (int i = 0; i < ROADS; i++) {
