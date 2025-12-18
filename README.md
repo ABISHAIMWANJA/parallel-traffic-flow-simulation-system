@@ -38,5 +38,5 @@ Execution Time: 0.104175 seconds
 
 ## File Structure
 
-- traffic_simulation.c – Complete source for the simulation.
-- README.md – Project overview, build/run instructions, and sample output.
+ traffic_simulation.c – Complete source for the simulation.
+ README.md – Project overview, build/run instructions, and sample output.
